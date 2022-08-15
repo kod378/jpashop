@@ -15,5 +15,12 @@ spring:
 
 logging:
   level:
+#    root: debug
     org.hibernate.SQL: debug
-    org.hibernate.type: trace
+#    org.hibernate.type: trace
+
+
+#decorator:
+#  datasource:
+#    p6spy:
+#      enable-logging: true
